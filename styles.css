@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --light-cyan:hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish:hsl(217, 19%, 38%);
+  --dark-gray:hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+body{
+  background-color: var(--dark-blue);
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:4px solid red;
+  min-height: 96vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 4px solid white;
+  min-width: 348px;
+  color: white;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
