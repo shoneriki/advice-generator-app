@@ -61,20 +61,22 @@ main {
 }
 
 #getData {
-  background-color: var(--neon-green);
-  border-radius: 50%;
-  cursor: pointer;
   position:absolute;
+  cursor: pointer;
   bottom: -30px;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-65%);
+  background-color: var(--neon-green);
+  border-radius: 50%;
   text-decoration: none;
-  color: black;
-  height: 3.5rem;
-  width: 3.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 1rem;
+  width: fit-content;
+  transition: box-shadow 0.5s ease;
+}
+
+#getData:hover {
+  box-shadow: 0 0px 16px rgba(82, 255, 168, 0.89);
+  transition: all 0.2s ease-in-out;
 }
 
 picture {
@@ -84,12 +86,6 @@ picture {
 img {
   max-width: 100%;
   display: block;
-}
-
-
-#getData:hover {
-  box-shadow: 0 0px 16px rgba(82, 255, 168, 0.89);
-  transition: all 0.2s ease-in-out;
 }
 
 br {

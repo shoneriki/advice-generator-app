@@ -4,15 +4,9 @@ const number = document.getElementById("advice-number")
 
 const url = "https://api.adviceslip.com/advice";
 
-// btn.addEventListener('click', async () => {
-//   const response = await fetch(url);
-//   const json = await response.json();
-//   const {advice, id} = json.slip;
-//   number.textContent = id;
-//   result.textContent = advice;
-// })
 
-fetch("https://api.adviceslip.com/advice")
+
+fetch(url)
   .then(response => {
     return response.json();
   }).then(adviceData => {
