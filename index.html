@@ -16,12 +16,14 @@
 <body>
   <main class="container">
     <div class="inner-container">
-      <h3 id="advice-header">Advice <span id="advice-number"></span><!-- Advice ID goes here --></h3>
-      <p id="advice"> "<!-- Advice text goes here -->"</p>
-      <hr>
-      <a class="dataBtn" href="" id="getData"><i class="fa-solid fa-arrows-to-dot"></i></a>
+      <h3 class="advice-header">Advice <span id="advice-number"></span><!-- Advice ID goes here --></h3>
+      <p id="advice"></p>
+      <picture>
+        <source media="(min-width: 800px)" srcset="images/pattern-divider-desktop.svg">
+        <img class="divider" src="images/pattern-divider-mobile.svg" alt="">
+      </picture>
+      <a class="dataBtn" type="button" href="" id="getData"><img src="images/icon-dice.svg" alt="dice"></a>
     </div>
-
   </main>
 
 
