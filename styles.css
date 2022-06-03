@@ -36,5 +36,16 @@ main {
   text-align: center;
 }
 
+hr {
+  width: 100%;
+}
+
+#getData {
+  background-color: var(--neon-green);
+  border-radius: 100%;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
