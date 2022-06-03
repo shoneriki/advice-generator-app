@@ -34,6 +34,7 @@ main {
   min-width: 348px;
   background-color: var(--grayish);
   text-align: center;
+  position: absolute;
 }
 
 hr {
@@ -45,6 +46,8 @@ hr {
   border-radius: 100%;
   padding: 2px 4px;
   cursor: pointer;
+  position: relative;
+  top: 12px
 }
 
 .attribution { font-size: 11px; text-align: center; }
