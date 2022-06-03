@@ -1,6 +1,6 @@
 const result = document.getElementById("advice");
 const number = document.getElementById("advice-number")
-const btn=  document.getElementById("getData")
+const btn=  document.getElementById("dataBtn")
 
 fetch("https://api.adviceslip.com/advice")
   .then(response => {
